@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Triforce 3D Wallpaper</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_color_summary">Pick a color</string>
+    <string name="pref_color_title">Pick a color</string>
+    <string name="pref_rotate_summary">Select an option</string>
+    <string name="pref_rotate_title">Rotation on touching</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_update_setting" >
+        <ListPreference
+            android:key="prefColor"
+            android:entries="@array/color"
+            android:summary="@string/pref_color_summary"
+            android:entryValues="@array/color_values"
+            android:title="@string/pref_color_title" />
+        <ListPreference
+            android:key="prefRotation"
+            android:entries="@array/rotation"
+            android:summary="@string/pref_rotate_summary"
+            android:entryValues="@array/rotation_values"
+            android:title="@string/pref_rotate_title" />
+    </PreferenceCategory>
+</PreferenceScreen> 
