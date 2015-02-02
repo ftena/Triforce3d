@@ -1,4 +1,4 @@
-package com.tarlic.triforce3d.android;
+package com.tarlic.triforce3d;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;

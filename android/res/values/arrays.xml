@@ -32,7 +32,7 @@
 	<item name="12">12</item>	
 </string-array>
 <string-array name="rotation">
-    <item name="0">No; stop image rotation</item>
+    <item name="0">No; stop animation</item>
     <item name="1">Yes; continue rotating</item>
 </string-array>
 <string-array name="rotation_values">

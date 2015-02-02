@@ -5,5 +5,5 @@
     <string name="pref_color_summary">Pick a color</string>
     <string name="pref_color_title">Pick a color</string>
     <string name="pref_rotate_summary">Select an option</string>
-    <string name="pref_rotate_title">Rotation on touching</string>
+    <string name="pref_rotate_title">Keep rotation on touching</string>
 </resources>

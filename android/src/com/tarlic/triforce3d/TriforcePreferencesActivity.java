@@ -1,4 +1,6 @@
-package com.tarlic.triforce3d.android;
+package com.tarlic.triforce3d;
+
+import com.tarlic.triforce3d.R;
 
 import android.content.Context;
 import android.content.SharedPreferences;
