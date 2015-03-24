@@ -1,5 +1,5 @@
 # Triforce3d
-Android application.
+Nice wallpaper for Android.
 
 Download the app from Google Play:
 
