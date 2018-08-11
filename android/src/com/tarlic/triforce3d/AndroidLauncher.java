@@ -4,7 +4,6 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.badlogic.gdx.backends.android.AndroidLiveWallpaperService;
-import com.tarlic.triforce3d.Triforce3d;
 
 public class AndroidLauncher extends AndroidLiveWallpaperService {
 	
