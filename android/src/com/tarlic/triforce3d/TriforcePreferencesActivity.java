@@ -61,7 +61,7 @@ public class TriforcePreferencesActivity extends PreferenceActivity {
     final String[] colors = res.getStringArray(R.array.color);
     
     // Get the string for that color.
-    String selectedColor = colors[Integer.valueOf(listColorPreference.getValue())];
+    String selectedColor = colors[Integer.parseInt(listColorPreference.getValue())];
     
     // Set a new summary in the application.
     listColorPreference.setSummary(selectedColor);
@@ -70,7 +70,7 @@ public class TriforcePreferencesActivity extends PreferenceActivity {
     listColorPreference.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {        	
-            String selectedColor = colors[Integer.valueOf(newValue.toString())];        	
+            String selectedColor = colors[Integer.parseInt(newValue.toString())];
         	
             preference.setSummary(selectedColor);
             
@@ -90,7 +90,7 @@ public class TriforcePreferencesActivity extends PreferenceActivity {
     final String[] rotation = res.getStringArray(R.array.rotation);
     
     // Get the string for that color.
-    String selectedRotationOption = rotation[Integer.valueOf(listRotationPreference.getValue())];
+    String selectedRotationOption = rotation[Integer.parseInt(listRotationPreference.getValue())];
     
     // Set a new summary in the application.
     listRotationPreference.setSummary(selectedRotationOption);
@@ -99,7 +99,7 @@ public class TriforcePreferencesActivity extends PreferenceActivity {
     listRotationPreference.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {        	
-            String selectedRotationOption = rotation[Integer.valueOf(newValue.toString())];        	
+            String selectedRotationOption = rotation[Integer.parseInt(newValue.toString())];
         	
             preference.setSummary(selectedRotationOption);
             
